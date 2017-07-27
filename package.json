@@ -1,0 +1,35 @@
+{
+  "name": "neutral-install",
+  "version": "0.0.0",
+  "description": "Neutrality install node modules",
+  "repository": {
+    "url": "zcong1993/neutral-install",
+    "type": "git"
+  },
+  "main": "index.js",
+  "bin": {
+    "neutral-install": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "xo"
+  },
+  "author": "zcong1993 <1005997919@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cac": "^4.0.0",
+    "cross-spawn": "^5.1.0",
+    "inquirer": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem"
+  }
+}
