@@ -31,7 +31,7 @@ module.exports = () => {
       if (tool === 'yarn') {
         yarnInstalled = yarnInstalled === undefined ? checkYarnInstalled() : yarnInstalled
         if (!yarnInstalled) {
-          console.log(`\nPlease install it first.`)
+          console.log(`\nPlease install `yarn` first.`)
           return
         }
         return exec('yarn')
