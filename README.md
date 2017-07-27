@@ -5,16 +5,13 @@
 ## Install
 
 ```bash
-yarn add neutral-install
+$ npm install -g  neutral-install
 ```
 
 ## Usage
 
 ```js
-const neutralInstall = require('neutral-install')
-
-neutralInstall()
-//=> foo
+$ neutral-install [options]
 ```
 
 ## Contributing
